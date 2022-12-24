@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+    font-family: arial, verdana, sans-serif;
+}
+body{
+    background-image: url(WebBoxLayout.PNG);
+    background-repeat: no-repeat;
+    background-size: 900px;
+}
+#container{
+    background-color: cyan;
+    margin:10px;
+    width:877px;
+    height:636px;
+    padding-top: 10px;
+}
+#content{
+    background-color: rgb(168, 170, 161);
+    width: 843px;
+    height: 488px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 1px;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline: solid 1px rgb(8, 8, 8);
+}
+#content1{
+    background-color: rgb(182, 228, 164);
+    display: inline-block;
+    width: 200px;
+    height: 470px;
+    padding-top: 5px;
+    padding-right: 1px;
+    margin-top: 0px;
+    margin-left: 1px;
+    outline: solid 1px rgb(8, 8, 8);
+}
+#content2{
+    background-color: rgb(182, 228, 164);
+    display: inline-block;
+    width: 595px;
+    height: 475px;
+    padding-top: 0px;
+    padding-right: 1px;
+    margin-top: 0px;
+    margin-left: 30px;
+    outline: solid 1px rgb(10, 10, 10);
+    vertical-align: top;
+}
+#headerOne{
+    background-color: rgb(168, 170, 161);
+    display: inline-block;
+    width: 857px;
+    height: 70px;
+    margin: 0px 10px 10px 10px;
+    outline: solid 1px rgb(8, 8, 8);
+    }
+#logo{
+    background-color: rgb(109, 161, 230);
+    width: 330px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    outline: solid 1px rgb(8, 8, 8);
+ }
+img, ul li, #hLinks, #promoBanner{
+    display: inline-block;
+}
+#hLinks{
+    /* background-color: rgb(109, 161, 230); */
+    width: 230px;
+    height: 38px;
+    padding-top: 25px;
+    vertical-align: top;
+    margin: 0px 0px 0px 180px;
+    word-spacing: 10px;
+}
+#userPic{
+    background-color: rgb(109, 161, 230);
+    width: 50px;
+    height: 50px;
+    margin: 9px 17px 0px;
+    vertical-align: top;
+    outline: solid 1px rgb(8, 8, 8);
+}
+#navLink{
+    background-color: rgb(168, 170, 161);
+    width: 845px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    word-spacing: 40px;
+    outline: solid 1px rgb(8, 8, 8);
+}
+
+#subHeader{
+    background-color: rgb(109, 161, 230);
+    height: 110px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 13px;
+    padding: 12px;
+    display: inline-block;
+    outline: solid 1px rgb(8, 8, 8);
+}
+#button{
+    margin-top: 21px;
+    margin-left: 72px;
+    height: 35px;
+    width: 77px;
+}
+#proBanner{
+    background-color: rgb(109, 161, 230);
+    height: 40px;
+    width: 550px;
+    padding: 10px;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-left: 12px;
+    outline: solid 1px rgb(8, 8, 8);
+}
+#pheadMain{
+    background-color: rgb(109, 161, 230);
+    height: 260px;
+    width: 545px;
+    padding: 12px;
+    vertical-align: top;
+    margin-left: 12px;
+    margin-top: 12px;  
+    outline: solid 1px rgb(8, 8, 8);
+}
+#pheadSub{
+    background-color: rgb(178, 212, 228);
+    display: inline-block;
+    height: 225px;
+    width: 230px;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: inline-block;
+    outline: solid 1px rgb(8, 8, 8);
+}
+#photo{
+    margin-top: 17px;
+    width: 210px;
+    height: 180px;
+    margin-left: 5px;
+}
+#footBanner{
+    background-color: rgb(109, 161, 230);
+    height: 55px;
+    width: 550px;
+    padding: 10px;
+    outline: solid 1px rgb(8, 8, 8);
+    vertical-align: top;
+    margin-left: 12px;
+    margin-top: 15px;
+    text-align: center;
+}
+.banOne{
+    background-color: white;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    padding-top: 16px;
+    }
